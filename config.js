@@ -10,7 +10,7 @@ const CONFIG = {
     phone:     "+27 72 856 0676",
     whatsapp:  "+27 72 856 0676",
     address:   "11 James Hyde Pl, Randburg, South Africa",
-    hours:     "Mon–Sat 7am–6pm · Emergency 24/7",
+    hours:     "Mon–Fri 7am–5pm · Sat 8am–1pm",
     region:    "Gauteng",
     priceRange:"$$",
     suburbs: [
@@ -27,8 +27,8 @@ const CONFIG = {
 
   // ─── PAGE META / SEO ─────────────────────────────────────
   meta: {
-    title:       "Coswic Construction Services — Plumber in randburg",
-    description: "Coswic Construction Services provides professional plumber in Randburg. 9 Google reviews. Call for a quote today.",
+    title:       "Coswic Construction Services — Building & construction in Randburg",
+    description: "Coswic Construction Services provides professional building and construction services in Randburg — new builds, extensions and renovations. 9 Google reviews. Call for a quote today.",
     url:         ""  // Live domain — e.g. https://example.co.za (activates canonical + WebSite schema)
   },
 
@@ -40,120 +40,120 @@ const CONFIG = {
 
   // ─── CONTENT ─────────────────────────────────────────────
   content: {
-    eyebrow:    "Plumber · Randburg & surrounds",
-    heroTitle:  "Burst pipe? Blocked drain? <em>We will fix it fast.</em>",
-    heroLead:   "Coswic Construction Services provides fast, reliable plumbing services for homes and businesses across Randburg and the surrounding areas. Emergency callouts welcome.",
+    eyebrow:    "Building & construction · Randburg & surrounds",
+    heroTitle:  "Building, extending or renovating? <em>Built right, finished properly.</em>",
+    heroLead:   "Coswic Construction Services handles new builds, extensions, renovations and structural work for homes and businesses across Randburg. Clear quotes, quality workmanship and projects finished on time.",
 
     googleRating: "4.8",
     reviewsCount: "9",
-    featuredQuote: "Had a burst pipe at 10pm. They answered, arrived within an hour and fixed it cleanly. Brilliant service.",
+    featuredQuote: "Coswic managed our whole build from foundation to finish. On schedule, on budget and the quality of the work speaks for itself.",
     featuredQuoteAuthor: "— Thabo M., Google review",
 
-    trustSignals: ["Emergency callouts", "Leak detection", "Drain unblocking", "Geyser repairs"],
+    trustSignals: ["New builds & extensions", "Renovations", "Structural work", "Clear fixed quotes"],
 
     // ─── SERVICES ──────────────────────────────────────────
-    servicesTitle: "All the plumbing work you'd expect from a local expert.",
-    servicesLead:  "From a dripping tap to a burst geyser — we arrive fast, quote clearly and get it fixed.",
+    servicesTitle: "Everything from foundation to final finish.",
+    servicesLead:  "New builds, extensions and renovations — managed properly, built to last and finished to a high standard.",
     services: [
       {
-        icon:  "droplet",
-        title: "Emergency plumbing",
-        desc:  "Burst pipes, major leaks and flooded rooms handled fast, day or night. We answer the phone when others do not."
+        icon:  "hardhat",
+        title: "New builds & extensions",
+        desc:  "Full residential and commercial builds and additions — from foundations and brickwork to roof and finishes, project-managed end to end."
       },
       {
         icon:  "wrench",
-        title: "Drain unblocking",
-        desc:  "Blocked sink, toilet or main drain? We clear it properly — not just the surface blockage that comes back in a week."
-      },
-      {
-        icon:  "circuit",
-        title: "Geyser repairs & replacement",
-        desc:  "Leaking, not heating or tripping the breaker? We repair or replace geysers and get hot water back quickly."
-      },
-      {
-        icon:  "gauge",
-        title: "Leak detection",
-        desc:  "We trace hidden leaks in walls and underground pipes without unnecessary digging, then repair them correctly."
+        title: "Renovations & alterations",
+        desc:  "Reworking, opening up or modernising an existing building — done cleanly, with minimal disruption and a clear schedule."
       },
       {
         icon:  "bolt",
-        title: "Pipe repairs & relaying",
-        desc:  "Cracked, corroded or leaking pipes repaired or repiped properly so the problem does not come back next month."
+        title: "Structural & concrete work",
+        desc:  "Foundations, slabs, columns and load-bearing alterations carried out correctly and to engineering specification."
       },
       {
-        icon:  "hardhat",
-        title: "Bathroom & kitchen plumbing",
-        desc:  "New basin, toilet, shower or kitchen sink installation. We fit it properly so it lasts."
+        icon:  "droplet",
+        title: "Waterproofing & damp proofing",
+        desc:  "Roofs, balconies, basements and walls sealed properly so leaks and rising damp are stopped at the source."
+      },
+      {
+        icon:  "shield",
+        title: "Boundary walls & paving",
+        desc:  "Boundary and retaining walls, driveways and paving built solid, level and to last through Highveld weather."
+      },
+      {
+        icon:  "broom",
+        title: "Plastering, tiling & finishes",
+        desc:  "Plastering, screeding, tiling and painting — the finishing work that decides whether a build looks professional."
       },
     ],
 
     // ─── WORK GALLERY ──────────────────────────────────────
     galleryTitle: "The work, up close.",
-    galleryLead:  "A look at the kind of work we handle every week.",
+    galleryLead:  "A look at the kind of projects we take on.",
     gallery: [
       {
         image:   "images/work-1.jpg",
         art:     "lockCylinderPick",
-        fig:     "01 — Emergency plumbing",
-        title:   "Fast response, proper fix",
-        caption: "Emergency plumbing calls handled quickly. We arrive, assess and fix rather than patching and promising to come back."
+        fig:     "01 — New builds & extensions",
+        title:   "Built from the ground up",
+        caption: "Foundations, brickwork, roofing and finishes managed as one project so the build runs to schedule and to spec."
       },
       {
         image:   "images/work-2.jpg",
         art:     "lockCylinderPick",
-        fig:     "02 — Drain unblocking",
-        title:   "Cleared completely, not just temporarily",
-        caption: "Drain blockages cleared to the cause — not just pushed down the line to come back in a month."
+        fig:     "02 — Renovations",
+        title:   "Old space, made new",
+        caption: "Existing homes reworked and modernised — walls moved, rooms reconfigured and finishes brought up to standard."
       },
       {
         image:   "images/work-3.jpg",
         art:     "lockCylinderPick",
-        fig:     "03 — Geyser work",
-        title:   "Hot water restored",
-        caption: "Geyser repairs, pressure valve replacements and full geyser swaps handled on the same day where possible."
+        fig:     "03 — Structural work",
+        title:   "Solid where it counts",
+        caption: "Foundations, slabs and load-bearing changes done to engineering specification, signed off and built to last."
       },
       {
         image:   "images/work-4.jpg",
         art:     "lockCylinderPick",
-        fig:     "04 — Leak detection",
-        title:   "Found and fixed, less digging",
-        caption: "Hidden leaks traced with pressure testing and listening equipment before any wall or floor is opened."
+        fig:     "04 — Waterproofing",
+        title:   "Sealed and dry",
+        caption: "Roofs, balconies and walls waterproofed properly so leaks and damp are dealt with at the source, not patched over."
       },
       {
         image:   "images/work-5.jpg",
         art:     "lockCylinderPick",
-        fig:     "05 — Pipe repairs",
-        title:   "Repaired to last",
-        caption: "Cracked and corroded pipes repaired properly using the right materials and fittings for the application."
+        fig:     "05 — Finishes",
+        title:   "Finished properly",
+        caption: "Plastering, tiling and painting completed to a high standard — the detail that makes a build look professional."
       },
     ],
 
     // ─── PHOTO BAND ────────────────────────────────────────
     band: {
       image: "images/band.jpg",
-      alt:   "Coswic Construction Services team at work in Randburg",
-      text:  "Fast, reliable plumbing — emergency callouts welcome."
+      alt:   "Coswic Construction Services team on a building site in Randburg",
+      text:  "Quality building and construction — from foundation to final finish."
     },
 
     // ─── AREAS BLURB ───────────────────────────────────────
-    areasTitle: "Based in Randburg. Serving the wider area.",
-    areasLead:  "We cover Randburg, Northcliff, Cresta and the surrounding suburbs. Emergency callouts available throughout the area.",
-    areasNote:  "Not on this list? Call us — we cover most of the greater Johannesburg area for emergencies.",
+    areasTitle: "Based in Randburg. Building across the wider area.",
+    areasLead:  "We take on projects in Randburg, Northcliff, Cresta and the surrounding suburbs. Site visits and quotes available throughout the area.",
+    areasNote:  "Not on this list? Call us — we work across most of the greater Johannesburg area.",
 
     // ─── WHY US ────────────────────────────────────────────
-    whyTitle: "Why neighbours keep calling us back.",
+    whyTitle: "Why clients build with us.",
     why: [
       {
-        title: "We answer the phone",
-        desc:  "Plumbing emergencies do not keep office hours — and neither do we. Call any time and we will get someone moving."
+        title: "Clear, fixed quotes",
+        desc:  "A detailed quote up front so you know exactly what the project costs before a single brick is laid. No surprise extras."
       },
       {
-        title: "Quote before we start",
-        desc:  "We give you a price before touching anything. No surprises on the invoice."
+        title: "Properly project-managed",
+        desc:  "One point of contact, a real schedule and trades coordinated for you — so the build moves and you are kept in the loop."
       },
       {
-        title: "We fix it properly",
-        desc:  "Not a temporary patch — a real repair using the right fittings and materials so the problem stays fixed."
+        title: "Built to last",
+        desc:  "Done to specification with quality materials and skilled tradesmen, so the work stands up years down the line."
       },
     ],
 
@@ -161,19 +161,19 @@ const CONFIG = {
     reviewsTitle: "From 9 verified Google reviews.",
     reviews: [
       {
-        body:   "Had a burst pipe at 10pm. They answered, arrived within an hour and fixed it cleanly. Brilliant service.",
+        body:   "Coswic managed our whole build from foundation to finish. On schedule, on budget and the quality of the work speaks for itself.",
         name:   "Thabo M.",
         stars:  5,
         source: "Google"
       },
       {
-        body:   "Used them for a leaking geyser and a blocked drain the same week. Honest pricing and excellent work both times.",
+        body:   "Used them for an extension and full renovation. Clear quote, tidy site and they finished when they said they would.",
         name:   "Sandra K.",
         stars:  5,
         source: "Google"
       },
       {
-        body:   "Finally found a plumber who actually shows up when they say they will. Highly recommend.",
+        body:   "Reliable construction team that actually manages the job properly. Quality work and honest pricing throughout.",
         name:   "Pieter V.",
         stars:  5,
         source: "Google"
@@ -181,38 +181,38 @@ const CONFIG = {
     ],
 
     // ─── FAQ ────────────────────────────────────────────────
-    faqTitle: "Common plumbing questions.",
-    faqLead:  "What most people ask before booking.",
+    faqTitle: "Common construction questions.",
+    faqLead:  "What most people ask before starting a project.",
     faq: [
       {
-        q: "Do you do emergency callouts after hours?",
-        a: "Yes — we handle emergency plumbing calls around the clock. Call us with what is happened and we will get the nearest plumber moving."
+        q: "Do you give a fixed quote before starting?",
+        a: "Yes — we visit the site, work through what you want and give a detailed written quote so you know the cost before any work begins."
       },
       {
-        q: "How quickly can you get here?",
-        a: "Response time depends on location and time of day, but we aim to be with you within an hour for genuine emergencies in our service area."
+        q: "Do you handle plans and approvals?",
+        a: "For builds and extensions that need them, we can assist with drawings and council submission, and work to approved plans and engineering specs."
       },
       {
-        q: "Do you quote before starting work?",
-        a: "Always. We assess the problem, give you a clear price and only start once you are happy to go ahead."
+        q: "How long will my project take?",
+        a: "It depends on scope, but we give a realistic schedule up front and keep you updated against it as the work progresses."
       },
       {
-        q: "Can you fix a burst pipe that is inside a wall?",
-        a: "Yes. We locate the leak, open the minimum necessary, make the repair properly and leave the area as tidy as possible."
+        q: "Do you manage the whole project or just the building?",
+        a: "We can manage the full project — coordinating trades, materials and timelines — so you have a single point of contact throughout."
       },
       {
-        q: "My geyser is leaking — do I need a new one?",
-        a: "Not always. We will check whether it is a pressure valve, the element or a tank fault. Repairs are often cheaper and faster than a full replacement."
+        q: "Are your builds done to specification?",
+        a: "Yes. Structural work is done to engineering specification and finishes to a high standard, with the right materials for the job."
       },
       {
-        q: "Do you work on older copper pipe systems?",
-        a: "Yes — we work on both copper and modern plastic pipe systems and stock fittings for both."
+        q: "Do you do renovations as well as new builds?",
+        a: "Both — from full new builds and extensions to renovations, alterations and smaller building work."
       },
     ],
 
     // ─── CONTACT ───────────────────────────────────────────
-    contactTitle: "Tell us what is going on.",
-    contactLead:  "Send through the details and we will reply on WhatsApp, usually quickly.",
-    contactPlaceholder: "e.g. burst pipe in kitchen, geyser leaking, blocked toilet"
+    contactTitle: "Tell us about your project.",
+    contactLead:  "Send through what you are planning and we will reply on WhatsApp to arrange a site visit and quote.",
+    contactPlaceholder: "e.g. double-storey extension, full home renovation, boundary wall and paving"
   }
 };
